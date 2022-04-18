@@ -1,0 +1,782 @@
+*{margin:0px; padding:0px; }
+   /* body{ }*/
+
+ /*Barra lateral esquerda */
+.principal{
+    display: flex;  
+}
+
+.menu-lateral{
+    
+    width: 220px;
+    height: 300px;
+}
+.menu-lateral-titulo{
+    display: flex;
+    align-items: center;
+    height:68px;
+    background-image: linear-gradient(#FFB354  0%,#EE7A3A 100%);
+    
+}
+.menu-lateral h3{
+    color:#fff;
+    font-size: 22px;
+    line-height: 26px;
+    margin: auto;
+}
+.menu-lateral-informacoes{
+    width: 220px;
+    
+}
+.informacoes-item{
+    border-bottom: 2px rgba(0, 0, 0, 0.13) solid;
+}
+.menu-lateral p{
+    display: block;
+    width:220px;
+    height: 33px;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 21px;
+}
+/*-----------------------------------------------------*/
+
+.pai{width: 100%;
+    height: 120%;
+    display: block;
+    }
+
+
+.barra{ 
+    background-color: #FDF1EB;
+    height: 68px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.barra p:first-of-type{
+    margin-top: 6px;
+}
+.barra-itens p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+    Font-family: Roboto;
+    Font-style: Regular;
+}
+
+.barra-itens h3{
+    font-size: 22px;
+    line-height: 26px;
+    font-family: Roboto;
+    font-style: Regular;
+}
+.barra-br{
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    
+    align-items: center;
+}
+.barra-contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.img-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -50px; 
+}
+.img-login img{
+    border-radius:50px;
+}
+/*Barra acaba aqui */
+
+/* SESSAO 1 */
+.simbolo-menu{
+    display: none;
+}
+.sessao-1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    height: 68px;
+}
+.sessao-1-titulo{
+    width: 730px;
+
+    
+}
+.sessao-1-titulo h3{
+    font-size: 20px;
+    line-height:25px;
+    color:#ED7839;
+
+}
+
+.fa-download{
+    margin-right:5px;
+    
+}
+.sessao-1-buttoes button{
+    margin: 4px;
+    
+    
+}
+
+.sessao-1-buttoes button:nth-of-type(1){       /*BUTOES*/
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 31px;
+    width: 110px;
+    color: #fff;
+    background-color: #ED7839;
+    
+}
+.sessao-1-buttoes button:nth-of-type(2){
+    color: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+    background-color: #ED7839;
+    width: 30px;
+    height: 31px;
+}
+.sessao-1-buttoes button:nth-of-type(3){
+    color: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+    background-color: #ED7839;
+    width: 43px;
+    height: 31px;
+}
+
+.sessao-1-subtitulo{
+    font-size: 14px;
+    line-height: 24px;
+    width: 230px;
+    
+}
+.sessao-1-subtitulo h4{
+    width:239px;
+    line-height:25px;
+    color: #ED7839;
+    
+
+}
+/*SESSAO 2 */
+
+.sessao-2{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.sessao-2-titulo{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    background-color: #FDF1EB;
+}
+.sessao-2-titulo h3{
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 15px;   
+}
+
+.sessao-2-segundo-iten{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    height: 350px;
+    width: 242px;
+}
+.sessao-2-video{
+    min-width: 50px;
+}
+.sessao-2-textos p{
+    margin-left: 13px;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 2%;
+    color: #5C5C5C;
+}
+/*  SESSAO 3                       aqui vai ter java script  -----*/
+
+.sessao-3{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    flex-wrap: wrap
+    
+
+}
+.sessao-3-titulo{
+    display: flex;
+    align-items: center;
+    width:1000px;
+    height:45px;
+    background-color: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+
+}
+
+.sessao-3-titulo h3{
+    font-size: 20px;
+}
+.sessao-3-textos{
+    width: 1000px;
+    height:120px;      /*300px           /*exatamente aqui , ter que chamar funcao pra amentar altura e textos aparecer*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    overflow:hidden;
+    margin-bottom: 20px;
+}
+
+.sessao-3-textos p{
+    width: 970px;
+    color: #5C5C5C;
+    line-height: 23px;
+    font-size:14px;
+    letter-spacing: 0.02em;
+
+}
+
+/*     SESSAO 4 */ 
+
+.sessao-4{
+    display: flex ;                                
+    justify-content: center;
+
+   
+}
+.sessao-4-container{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;    /*******************/
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+
+}
+
+
+.sessao-4-itens{
+display: block;            /*display    comerça no js normal */
+  
+}
+
+
+.sessao-4-titulo{
+    display: flex;
+    align-items: center;
+    width:1000px;
+    height:45px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+.sessao-4-subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sessao-4-subtitulo h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+
+
+}
+.sessao-4-sessao-icons{
+    display: flex;
+    justify-content: center;
+}
+.sessao-4-icons{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+.sessao-4-icons i{
+    margin-top: 20px;
+    font-size: 22px;
+}
+.sessao-4-textos{
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+    
+    width: 600px;
+}
+.sessao-4-textos p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #595959;
+}
+.sessao-4-btn button{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #fff;
+    border: none;
+    width: 133px;
+    height: 32px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+}
+
+/*Formularios*/
+
+
+
+.formularios-container{
+    display: none;                   /* Display  nomal=block */
+}
+
+
+
+.formularios-titulo{
+    display: flex;
+    align-items: center;
+    width:999px;
+    height:45px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    
+
+}
+
+.formularios-subtitulo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formularios-subtitulo p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+}
+/*.formularios-itens{
+    
+}*/
+.formularios-itens form{
+    display: block;                     
+    margin: auto;
+    width: 95%;
+
+}
+
+.formularios-itens .form,input,textarea{ 
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+}
+.formularios-itens input{
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 25px;
+}
+.formularios-itens label{
+    align-self: center;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #ED7839;
+    display: block;
+}
+.formularios-rodape{
+    width: 95%;
+    display: block;
+    margin: auto;
+    margin-top:-5px;
+    display: flex;
+    height: 25px;
+
+}
+.formularios-rodape-letras{
+    vertical-align: center;
+    width:91%;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+}
+.formularios-rodape-letras p{
+    font-size: 18px;
+    margin-left:10px;
+}
+.formularios-rodape-btn {
+    width: 20%;
+    
+}
+.formularios-rodape button{
+    border: none;
+    outline: none ;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    width: 189px;
+    margin-left: -3px;
+    height: 100%;
+    color:#fff;
+}
+
+ /*topico abaixo*/
+
+ .topico-container{            
+    Display:none;                   /*Display normal=block*/
+ }
+
+.topico-titulo{
+    display: flex;
+    align-items: center;
+    width:1000px;
+    height:45px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.topico-subtitulo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topico-subtitulo h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+}
+
+.topico-subtitulo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topico-descricao{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topico-descricao p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+}
+.topico-descricao-2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topico-descricao-2 p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137.5%;
+    text-decoration-line: underline;
+    color: #F48F44;
+}
+.topico-btn{
+    display: flex;
+    justify-content: center;
+}
+.topico-btn button{
+    border: none;
+    width: 235px;
+    height: 32px;   
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    color: #fff;
+}
+/*sessao 5 */
+
+
+.sessao-5{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom:15px ;
+    width: 100%;
+    
+       /*******************************************/
+}
+.sessao-5-itens{   
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+
+    width:96%;
+    
+}
+.sessao-5-titulo{
+    margin-left: 15px;
+    margin-top: 7px;
+    
+}
+.sessao-5-titulo h3{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ED7839;
+}
+.sessao-5-descricao p{
+    margin-left: 15px;
+    
+    margin-bottom: 3px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    color: #5C5C5C;
+}
+
+.sessao-5-descricao-2 p{
+    margin-left: 15px;
+    margin-top: 8px;
+    Font-family:Quicksand;
+    Font-style:Regular;
+    Font-size:14px;
+    color:#4D4D4D;
+}
+.sessao-5-icons{
+    display: flex;
+    margin-top: 5px;
+
+
+}
+.sessao-5-icons p{
+    margin-left: 15px;   
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+    
+}
+
+                        /*rodape*/
+.rodape{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+    
+}
+
+.rodape-itens{
+    display: flex;
+    justify-content:space-around;
+    width:88%;
+    height: 140px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+}
+
+.rodape-img {
+}
+
+.rodape-descricao{
+    width:70%;
+}
+
+.rodape-descricao p{
+    margin-top: 15px;
+    font-size: 14px ;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    line-height: 19px;
+    color: #757575;
+
+}
+/********************************************************************/
+@media  screen and (max-width: 1000px){
+    .simbolo-menu i{
+        display: block;
+        position: absolute;
+        
+    }
+    .fa-bars{
+    }
+    
+    .barra{
+        width: 95%;
+        display: block;
+        margin: auto;
+        height: 200px;
+        
+        margin-left: 12px;
+        
+    }
+    .barra-contato{
+        display: block;
+    }
+    .img-login{
+        display: block;
+        width: 10%;
+        margin: 0;
+    }
+    .menu-lateral{
+        display: none;
+    }
+    .simbolo-menu{
+    display: block;
+    position: absolute;
+    }
+    /**/
+    .sessao-1{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    height: 120px;
+    flex-wrap: wrap;
+    
+    }
+    .sessao-1-titulo{
+        width: 85%;
+        text-align: center;
+    }
+    
+    /**/
+    .sessao-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sessao-2-video{
+        width: 100%;
+    }
+    .sessao-2-video iframe{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .sessao-2-textos p{
+        font-size: 13px;
+         
+    }/**/
+    .sessao-3{
+        display: block;
+        margin: auto;
+        width: 95%;
+        
+    }
+    .sessao-3-titulo{
+        width: 100%;
+    }
+    .sessao-3-textos{
+        width: 100%;
+    }
+    .sessao-3-textos p{
+        width: 100%;
+    }/**/
+   
+   
+    /**/
+    .sessao-4-itens{
+        display: block;
+        margin: auto;
+        width: 97%;
+        
+    }
+    .sessao-4-titulo{
+        width: 100% ;
+        
+    }/**/
+    .formularios-container{
+        display: block;
+        margin: auto;
+        width: 97%;
+    }
+
+    
+    .formularios-titulo{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }/**/
+    .topico-container{
+        display: block;
+        margin: auto;
+        width: 97%;
+
+    }
+    .topico-titulo{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .rodape{
+        height: 300px;
+    }
+}
+
